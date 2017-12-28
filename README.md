@@ -17,4 +17,4 @@ CUDA_VISIBLE_DEVICES='1' python distributed.py --job_name=worker --task_index=3
 
 实验环境:
 
-Teslak20c集群,使用了3个节点，其中1个节点使用1个cpu作为参数服务器,2个节点分别使用2个gpu作为工作服务器，分布式训练方式可以选择同步和异步两种。
+TeslaK20c集群,使用了3个节点，其中1个节点使用1个cpu作为参数服务器,2个节点分别使用2个gpu作为工作服务器，分布式训练方式可以选择同步和异步两种。
